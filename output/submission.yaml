@@ -11,34 +11,11 @@ data_license:
 ---
 additional_resources:
 - description: Image file
-  location: Figure_002-a.png
-- description: Thumbnail image file
-  location: thumb_Figure_002-a.png
-data_file: figure_2a.yaml
-description: Genuine tau category BDT score distribution in the $\tau_h\tau_h$ channel.
-keywords: []
-location: Data from Figure 2a
-name: Figure 2a
----
-additional_resources:
-- description: Image file
-  location: Figure_002-b.png
-- description: Thumbnail image file
-  location: thumb_Figure_002-b.png
-data_file: figure_2b.yaml
-description: Mis-ID tau category BDT score distribution in the $\tau_h\tau_h$ channel.
-keywords: []
-location: Data from Figure 2b
-name: Figure 2b
----
-additional_resources:
-- description: Image file
   location: Figure_003-a.png
 - description: Thumbnail image file
   location: thumb_Figure_003-a.png
 data_file: figure_3a.yaml
-description: $\phi_{CP}$ distribution in the $\rho\rho$ category in windows of increasing
-  Higgs category BDT score.
+description: Genuine tau category BDT score distribution in the $\tau_h\tau_h$ channel.
 keywords: []
 location: Data from Figure 3a
 name: Figure 3a
@@ -49,96 +26,82 @@ additional_resources:
 - description: Thumbnail image file
   location: thumb_Figure_003-b.png
 data_file: figure_3b.yaml
-description: $\phi_{CP}$ distribution in the $\pi\rho$ category in windows of increasing
-  Higgs category BDT score.
+description: Mis-ID tau category BDT score distribution in the $\tau_h\tau_h$ channel.
 keywords: []
 location: Data from Figure 3b
 name: Figure 3b
 ---
 additional_resources:
 - description: Image file
-  location: Figure_003-c.png
+  location: Figure_004-a.png
 - description: Thumbnail image file
-  location: thumb_Figure_003-c.png
-data_file: figure_3c.yaml
+  location: thumb_Figure_004-a.png
+data_file: figure_4a.yaml
+description: $\phi_{CP}$ distribution in the $\rho\rho$ category in windows of increasing
+  Higgs category BDT score.
+keywords: []
+location: Data from Figure 4a
+name: Figure 4a
+---
+additional_resources:
+- description: Image file
+  location: Figure_004-b.png
+- description: Thumbnail image file
+  location: thumb_Figure_004-b.png
+data_file: figure_4b.yaml
+description: $\phi_{CP}$ distribution in the $\pi\rho$ category in windows of increasing
+  Higgs category BDT score.
+keywords: []
+location: Data from Figure 4b
+name: Figure 4b
+---
+additional_resources:
+- description: Image file
+  location: Figure_004-c.png
+- description: Thumbnail image file
+  location: thumb_Figure_004-c.png
+data_file: figure_4c.yaml
 description: $\phi_{CP}$ distribution in the $\rho a_1^{3pr}$ category in windows
   of increasing Higgs category BDT score.
 keywords: []
-location: Data from Figure 3c
-name: Figure 3c
----
-additional_resources:
-- description: Image file
-  location: Figure_004.png
-- description: Thumbnail image file
-  location: thumb_Figure_004.png
-data_file: figure_4_observed.yaml
-description: Observed negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
-  for the $\sqrt{s}=13.6$ TeV data set.
-keywords: []
-location: Data from Figure 4
-name: Figure 4 Observed
----
-additional_resources:
-- description: Image file
-  location: Figure_004.png
-- description: Thumbnail image file
-  location: thumb_Figure_004.png
-data_file: figure_4_expected.yaml
-description: Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
-  for the $\sqrt{s}=13.6$ TeV data set.
-keywords: []
-location: Data from Figure 4
-name: Figure 4 Expected
+location: Data from Figure 4c
+name: Figure 4c
 ---
 additional_resources:
 - description: Image file
   location: Figure_005.png
 - description: Thumbnail image file
   location: thumb_Figure_005.png
-data_file: figure_5_observed.yaml
-description: Observed negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
-  for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
-keywords: []
-location: Data from Figure 5
-name: Figure 5 Observed
----
-additional_resources:
-- description: Image file
-  location: Figure_005.png
-- description: Thumbnail image file
-  location: thumb_Figure_005.png
-data_file: figure_5_expected.yaml
-description: Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
-  for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
-keywords: []
-location: Data from Figure 5
-name: Figure 5 Expected
----
-additional_resources:
-- description: Image file
-  location: Figure_006-a.png
-- description: Thumbnail image file
-  location: thumb_Figure_006-a.png
-data_file: figure_6a.yaml
+data_file: figure_5.yaml
 description: Weighted $\phi_{CP}$ distributions for the $\sqrt{s}=13.6$ TeV data set,
   shown for signal (SM, pseudoscalar, maximal mixing), background, and observed data.
 keywords: []
-location: Data from Figure 6a
-name: Figure 6a
+location: Data from Figure 5
+name: Figure 5
 ---
 additional_resources:
 - description: Image file
-  location: Figure_006-b.png
+  location: Figure_006.png
 - description: Thumbnail image file
-  location: thumb_Figure_006-b.png
-data_file: figure_6b.yaml
-description: Weighted $\phi_{CP}$ distributions for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$
-  TeV data sets, shown for signal (SM, pseudoscalar, maximal mixing), background,
-  and observed data.
+  location: thumb_Figure_006.png
+data_file: figure_6_observed.yaml
+description: Observed negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
+  for the $\sqrt{s}=13.6$ TeV data set.
 keywords: []
-location: Data from Figure 6b
-name: Figure 6b
+location: Data from Figure 6
+name: Figure 6 Observed
+---
+additional_resources:
+- description: Image file
+  location: Figure_006.png
+- description: Thumbnail image file
+  location: thumb_Figure_006.png
+data_file: figure_6_expected.yaml
+description: Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
+  for the $\sqrt{s}=13.6$ TeV data set.
+keywords: []
+location: Data from Figure 6
+name: Figure 6 Expected
 ---
 additional_resources:
 - description: Image file
@@ -146,8 +109,9 @@ additional_resources:
 - description: Thumbnail image file
   location: thumb_Figure_007.png
 data_file: figure_7.yaml
-description: Observed negative log-likelihood scan in the ($\alpha^{\mathrm{H}\tau\tau}$,
-  $\mu$) plane for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
+description: Weighted $\phi_{CP}$ distributions for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$
+  TeV data sets, shown for signal (SM, pseudoscalar, maximal mixing), background,
+  and observed data.
 keywords: []
 location: Data from Figure 7
 name: Figure 7
@@ -157,12 +121,24 @@ additional_resources:
   location: Figure_008.png
 - description: Thumbnail image file
   location: thumb_Figure_008.png
-data_file: figure_8.yaml
-description: Observed negative log-likelihood scan in the (${\kappa}_\tau$, $\tilde{\kappa}_\tau$)
-  plane for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
+data_file: figure_8_observed.yaml
+description: Observed negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
+  for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
 keywords: []
 location: Data from Figure 8
-name: Figure 8
+name: Figure 8 Observed
+---
+additional_resources:
+- description: Image file
+  location: Figure_008.png
+- description: Thumbnail image file
+  location: thumb_Figure_008.png
+data_file: figure_8_expected.yaml
+description: Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
+  for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
+keywords: []
+location: Data from Figure 8
+name: Figure 8 Expected
 ---
 additional_resources:
 - description: Image file
@@ -170,13 +146,52 @@ additional_resources:
 - description: Thumbnail image file
   location: thumb_Figure_009.png
 data_file: figure_9.yaml
+description: Correlation matrix for the parameters $\alpha^{\mathrm{H}\tau\tau}$,
+  $\mu_\mathrm{qqH}$, and $\mu_\mathrm{ggH}$ from the fit to the $\sqrt{s}=13$ and
+  $\sqrt{s}=13.6$ TeV data sets. The best fit values are $\alpha^{\mathrm{H}\tau\tau}=(7
+  \pm 16)^\circ$, $\mu_\mathrm{ggH} = 0.93^{+0.29}_{-0.25}$ and $\mu_\mathrm{qqH}
+  = 0.79^{+0.50}_{-0.47}$.
+keywords: []
+location: Data from Figure 9
+name: Figure 9
+---
+additional_resources:
+- description: Image file
+  location: Figure_010.png
+- description: Thumbnail image file
+  location: thumb_Figure_010.png
+data_file: figure_10.yaml
+description: Observed negative log-likelihood scan in the ($\alpha^{\mathrm{H}\tau\tau}$,
+  $\mu$) plane for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
+keywords: []
+location: Data from Figure 10
+name: Figure 10
+---
+additional_resources:
+- description: Image file
+  location: Figure_011.png
+- description: Thumbnail image file
+  location: thumb_Figure_011.png
+data_file: figure_11.yaml
+description: Observed negative log-likelihood scan in the (${\kappa}_\tau$, $\tilde{\kappa}_\tau$)
+  plane for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.
+keywords: []
+location: Data from Figure 11
+name: Figure 11
+---
+additional_resources:
+- description: Image file
+  location: Figure_012.png
+- description: Thumbnail image file
+  location: thumb_Figure_012.png
+data_file: figure_12.yaml
 description: Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$
   for the projection to the end of the High-Luminosity LHC, with statistical uncertainties
   only and with systematic uncertainties kept constant with respect to the 13.6 TeV
   analysis.
 keywords: []
-location: Data from Figure 9
-name: Figure 9
+location: Data from Figure 12
+name: Figure 12
 ---
 additional_resources:
 - description: Image file
@@ -215,18 +230,3 @@ description: Observed negative log-likelihood scan in the ($\mu_\mathrm{ggH}$, $
 keywords: []
 location: Data from Auxillary Figure 3
 name: Auxillary Figure 3
----
-additional_resources:
-- description: Image file
-  location: Figure_004_aux.png
-- description: Thumbnail image file
-  location: thumb_Figure_004_aux.png
-data_file: auxillary_figure_4.yaml
-description: Correlation matrix for the parameters $\alpha^{\mathrm{H}\tau\tau}$,
-  $\mu_\mathrm{qqH}$, and $\mu_\mathrm{ggH}$ from the fit to the $\sqrt{s}=13$ and
-  $\sqrt{s}=13.6$ TeV data sets. The best fit values are $\alpha^{\mathrm{H}\tau\tau}=(7
-  \pm 16)^\circ$, $\mu_\mathrm{ggH} = 0.93^{+0.29}_{-0.25}$ and $\mu_\mathrm{qqH}
-  = 0.79^{+0.50}_{-0.47}$.
-keywords: []
-location: Data from Auxillary Figure 4
-name: Auxillary Figure 4

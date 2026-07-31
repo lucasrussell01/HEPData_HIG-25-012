@@ -309,19 +309,19 @@ def make_table_2Dscan(root_file, x_branch, y_branch, x_label, y_label, x_units, 
 submission.add_table(make_table_bdt_score(
     "input_data/ROOT/Fit_inputs.root",
     "htt_tt_1_13p6TeV",
-    "Figure 2a",
+    "Figure 3a",
     r"Genuine tau category BDT score distribution in the $\tau_h\tau_h$ channel.",
-    "Data from Figure 2a",
-    image="input_data/Figures/Figure_002-a.pdf",
+    "Data from Figure 3a",
+    image="input_data/Figures/Figure_003-a.pdf",
 ))
 
 submission.add_table(make_table_bdt_score(
     "input_data/ROOT/Fit_inputs.root",
     "htt_tt_2_13p6TeV",
-    "Figure 2b",
+    "Figure 3b",
     r"Mis-ID tau category BDT score distribution in the $\tau_h\tau_h$ channel.",
-    "Data from Figure 2b",
-    image="input_data/Figures/Figure_002-b.pdf",
+    "Data from Figure 3b",
+    image="input_data/Figures/Figure_003-b.pdf",
 ))
 
 
@@ -329,124 +329,138 @@ submission.add_table(make_table_fit_inputs(
     "input_data/ROOT/Fit_inputs.root",
     "htt_tt_3_13p6TeV",
     "Bin number", "",
-    "Figure 3a",
+    "Figure 4a",
     r"$\phi_{CP}$ distribution in the $\rho\rho$ category in windows of increasing Higgs category BDT score.",
-    "Data from Figure 3a",
-    image="input_data/Figures/Figure_003-a.pdf",
+    "Data from Figure 4a",
+    image="input_data/Figures/Figure_004-a.pdf",
 ))
 
 submission.add_table(make_table_fit_inputs(
     "input_data/ROOT/Fit_inputs.root",
     "htt_tt_7_13p6TeV",
     "Bin number", "",
-    "Figure 3b",
+    "Figure 4b",
     r"$\phi_{CP}$ distribution in the $\pi\rho$ category in windows of increasing Higgs category BDT score.",
-    "Data from Figure 3b",
-    image="input_data/Figures/Figure_003-b.pdf",
+    "Data from Figure 4b",
+    image="input_data/Figures/Figure_004-b.pdf",
 ))
 
 submission.add_table(make_table_fit_inputs(
     "input_data/ROOT/Fit_inputs.root",
     "htt_tt_5_13p6TeV",
     "Bin number", "",
-    "Figure 3c",
+    "Figure 4c",
     r"$\phi_{CP}$ distribution in the $\rho a_1^{3pr}$ category in windows of increasing Higgs category BDT score.",
-    "Data from Figure 3c",
-    image="input_data/Figures/Figure_003-c.pdf",
+    "Data from Figure 4c",
+    image="input_data/Figures/Figure_004-c.pdf",
+))
+
+submission.add_table(make_table_phiCP(
+    "input_data/ROOT/Propaganda_Run3.root",
+    "weighted_phiCP_10bin_categories",
+    "Figure 5",
+    r"Weighted $\phi_{CP}$ distributions for the $\sqrt{s}=13.6$ TeV data set, shown for signal (SM, pseudoscalar, maximal mixing), background, and observed data.",
+    "Data from Figure 5",
+    image="input_data/Figures/Figure_005.pdf",
 ))
 
 
 submission.add_table(make_table_1Dscan(
     "input_data/ROOT/Run3_alpha_NLL_OBS.root",
     "outputs/Feb20_Unblinding/cmb/alpha_cmb_OBSERVED_HD",
-    "Figure 4 Observed",
+    "Figure 6 Observed",
     r"Observed negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$ for the $\sqrt{s}=13.6$ TeV data set.",
-    "Data from Figure 4",
-    image="input_data/Figures/Figure_004.pdf",
+    "Data from Figure 6",
+    image="input_data/Figures/Figure_006.pdf",
 ))
 
 submission.add_table(make_table_1Dscan(
     "input_data/ROOT/Run3_alpha_NLL_EXP.root",
     "outputs/Feb20_Unblinding/cmb/alpha_cmb_EXPECTED_HD",
-    "Figure 4 Expected",
+    "Figure 6 Expected",
     r"Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$ for the $\sqrt{s}=13.6$ TeV data set.",
-    "Data from Figure 4",
-    image="input_data/Figures/Figure_004.pdf",
-))
-
-submission.add_table(make_table_1Dscan(
-    "input_data/ROOT/Run2Run3_alpha_NLL_OBS.root",
-    "run2run3_HD_alpha_scans/alpha_cmb_OBSERVED",
-    "Figure 5 Observed",
-    r"Observed negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$ for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.",
-    "Data from Figure 5",
-    image="input_data/Figures/Figure_005.pdf",
-))
-
-submission.add_table(make_table_1Dscan(
-    "input_data/ROOT/Run2Run3_alpha_NLL_EXP.root",
-    "run2run3_HD_alpha_scans/alpha_cmb_EXPECTED",
-    "Figure 5 Expected",
-    r"Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$ for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.",
-    "Data from Figure 5",
-    image="input_data/Figures/Figure_005.pdf",
-))
-
-
-submission.add_table(make_table_phiCP(
-    "input_data/ROOT/Propaganda_Run3.root",
-    "weighted_phiCP_10bin_categories",
-    "Figure 6a",
-    r"Weighted $\phi_{CP}$ distributions for the $\sqrt{s}=13.6$ TeV data set, shown for signal (SM, pseudoscalar, maximal mixing), background, and observed data.",
-    "Data from Figure 6a",
-    image="input_data/Figures/Figure_006-a.pdf",
+    "Data from Figure 6",
+    image="input_data/Figures/Figure_006.pdf",
 ))
 
 submission.add_table(make_table_phiCP(
     "input_data/ROOT/Propaganda_Run2Run3.root",
     "weighted_phiCP_10bin_categories",
-    "Figure 6b",
+    "Figure 7",
     r"Weighted $\phi_{CP}$ distributions for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets, shown for signal (SM, pseudoscalar, maximal mixing), background, and observed data.",
-    "Data from Figure 6b",
-    image="input_data/Figures/Figure_006-b.pdf",
+    "Data from Figure 7",
+    image="input_data/Figures/Figure_007.pdf",
 ))
 
+submission.add_table(make_table_1Dscan(
+    "input_data/ROOT/Run2Run3_alpha_NLL_OBS.root",
+    "run2run3_HD_alpha_scans/alpha_cmb_OBSERVED",
+    "Figure 8 Observed",
+    r"Observed negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$ for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.",
+    "Data from Figure 8",
+    image="input_data/Figures/Figure_008.pdf",
+))
+
+submission.add_table(make_table_1Dscan(
+    "input_data/ROOT/Run2Run3_alpha_NLL_EXP.root",
+    "run2run3_HD_alpha_scans/alpha_cmb_EXPECTED",
+    "Figure 8 Expected",
+    r"Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$ for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.",
+    "Data from Figure 8",
+    image="input_data/Figures/Figure_008.pdf",
+))
+
+
+submission.add_table(make_table_correlation_matrix(
+    params=[
+        r"$\alpha^{\mathrm{H}\tau\tau}$",
+        r"$\mu_\mathrm{qqH}$",
+        r"$\mu_\mathrm{ggH}$",
+    ],
+    matrix=[
+        [ 1.00,  -0.02, 0.01],
+        [ -0.02,  1.00, -0.73],
+        [0.01, -0.73,  1.00],
+    ],
+    table_name="Figure 9",
+    description=r"Correlation matrix for the parameters $\alpha^{\mathrm{H}\tau\tau}$, $\mu_\mathrm{qqH}$, and $\mu_\mathrm{ggH}$ from the fit to the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets. The best fit values are $\alpha^{\mathrm{H}\tau\tau}=(7 \pm 16)^\circ$, $\mu_\mathrm{ggH} = 0.93^{+0.29}_{-0.25}$ and $\mu_\mathrm{qqH} = 0.79^{+0.50}_{-0.47}$.",
+    location="Data from Figure 9",
+    image="input_data/Figures/Figure_009.pdf",
+))
 
 submission.add_table(make_table_2Dscan(
     "input_data/ROOT/Run2Run3_mu_alpha_NLL_OBS.root",
     "alpha", "mutautau",
     r"$\alpha^{\mathrm{H}\tau\tau}$", r"$\mu$", "degrees", "",
-    "Figure 7",
+    "Figure 10",
     r"Observed negative log-likelihood scan in the ($\alpha^{\mathrm{H}\tau\tau}$, $\mu$) plane for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.",
-    "Data from Figure 7",
+    "Data from Figure 10",
     extra_filter="alpha >= -90 && alpha <= 90",
-    image="input_data/Figures/Figure_007.pdf",
+    image="input_data/Figures/Figure_010.pdf",
 ))
 
 submission.add_table(make_table_2Dscan(
     "input_data/ROOT/Run2Run3_kappas_NLL_OBS.root",
     "kappaH", "kappaA",
     r"${\kappa}_\tau$", r"$\tilde{\kappa}_\tau$", "", "",
-    "Figure 8",
+    "Figure 11",
     r"Observed negative log-likelihood scan in the (${\kappa}_\tau$, $\tilde{\kappa}_\tau$) plane for the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets.",
-    "Data from Figure 8",
+    "Data from Figure 11",
     extra_filter="kappaH < 2.001",
-    image="input_data/Figures/Figure_008.pdf",
+    image="input_data/Figures/Figure_011.pdf",
 ))
-
 
 submission.add_table(make_table_two_1Dscans(
     "input_data/ROOT/HLExtrap_nosyst.root", "alpha_extrap_nosysts",
     r"$-2 \Delta \ln L$ (stat. only)",
     "input_data/ROOT/HLExtrap_Run3syst.root", "alpha_extrap_run3systs",
     r"$-2 \Delta \ln L$ (stat. + syst.)",
-    "Figure 9",
+    "Figure 12",
     r"Expected negative log-likelihood scan of $\alpha^{\mathrm{H}\tau\tau}$ for the projection to the end of the High-Luminosity LHC, with statistical uncertainties only and with systematic uncertainties kept constant with respect to the 13.6 TeV analysis.",
-    "Data from Figure 9",
-    image="input_data/Figures/Figure_009.pdf",
+    "Data from Figure 12",
+    image="input_data/Figures/Figure_012.pdf",
     x_range=(-15, 15),
 ))
-
 
 submission.add_table(make_table_2Dscan(
     "input_data/ROOT/Run3_muscan.root",
@@ -490,22 +504,6 @@ submission.add_table(make_table_2Dscan(
 ))
 
 
-submission.add_table(make_table_correlation_matrix(
-    params=[
-        r"$\alpha^{\mathrm{H}\tau\tau}$",
-        r"$\mu_\mathrm{qqH}$",
-        r"$\mu_\mathrm{ggH}$",
-    ],
-    matrix=[
-        [ 1.00,  -0.02, 0.01],
-        [ -0.02,  1.00, -0.73],
-        [0.01, -0.73,  1.00],
-    ],
-    table_name="Auxillary Figure 4",
-    description=r"Correlation matrix for the parameters $\alpha^{\mathrm{H}\tau\tau}$, $\mu_\mathrm{qqH}$, and $\mu_\mathrm{ggH}$ from the fit to the $\sqrt{s}=13$ and $\sqrt{s}=13.6$ TeV data sets. The best fit values are $\alpha^{\mathrm{H}\tau\tau}=(7 \pm 16)^\circ$, $\mu_\mathrm{ggH} = 0.93^{+0.29}_{-0.25}$ and $\mu_\mathrm{qqH} = 0.79^{+0.50}_{-0.47}$.",
-    location="Data from Auxillary Figure 4",
-    image="input_data/Figures/Figure_004_aux.pdf",
-))
 
 
 
