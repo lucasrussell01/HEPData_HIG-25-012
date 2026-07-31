@@ -1,0 +1,29 @@
+dependent_variables:
+- header:
+    name: Correlation
+  values:
+  - value: 1.0
+  - value: -0.02
+  - value: 1.0
+  - value: 0.01
+  - value: -0.73
+  - value: 1.0
+independent_variables:
+- header:
+    name: Parameter (row)
+  values:
+  - value: $\alpha^{\mathrm{H}\tau\tau}$
+  - value: $\mu_\mathrm{qqH}$
+  - value: $\mu_\mathrm{qqH}$
+  - value: $\mu_\mathrm{ggH}$
+  - value: $\mu_\mathrm{ggH}$
+  - value: $\mu_\mathrm{ggH}$
+- header:
+    name: Parameter (column)
+  values:
+  - value: $\alpha^{\mathrm{H}\tau\tau}$
+  - value: $\alpha^{\mathrm{H}\tau\tau}$
+  - value: $\mu_\mathrm{qqH}$
+  - value: $\alpha^{\mathrm{H}\tau\tau}$
+  - value: $\mu_\mathrm{qqH}$
+  - value: $\mu_\mathrm{ggH}$

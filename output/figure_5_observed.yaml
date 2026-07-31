@@ -1,0 +1,97 @@
+dependent_variables:
+- header:
+    name: $-2 \Delta \ln L$
+  values:
+  - value: 10.667
+  - value: 10.859
+  - value: 10.94
+  - value: 10.921
+  - value: 10.797
+  - value: 10.564
+  - value: 10.219
+  - value: 9.7725
+  - value: 9.2351
+  - value: 8.6073
+  - value: 7.9052
+  - value: 7.1331
+  - value: 6.318
+  - value: 5.4698
+  - value: 4.6121
+  - value: 3.7697
+  - value: 2.9618
+  - value: 2.2104
+  - value: 1.5411
+  - value: 1.0084
+  - value: 0.52155
+  - value: 0.22244
+  - value: 0.040407
+  - value: 0.0
+  - value: 0.0049358
+  - value: 0.11643
+  - value: 0.37209
+  - value: 0.76598
+  - value: 1.1986
+  - value: 1.7793
+  - value: 2.4407
+  - value: 3.1583
+  - value: 3.9188
+  - value: 4.702
+  - value: 5.4913
+  - value: 6.2712
+  - value: 7.0237
+  - value: 7.7395
+  - value: 8.4094
+  - value: 9.0103
+  - value: 9.552
+  - value: 10.009
+  - value: 10.391
+  - value: 10.667
+independent_variables:
+- header:
+    name: $\alpha^{ \mathrm{H} \tau \tau}$
+    units: degrees
+  values:
+  - value: -90.0
+  - value: -85.714
+  - value: -81.429
+  - value: -77.143
+  - value: -72.857
+  - value: -68.571
+  - value: -64.286
+  - value: -60.0
+  - value: -55.714
+  - value: -51.429
+  - value: -47.143
+  - value: -42.857
+  - value: -38.571
+  - value: -34.286
+  - value: -30.0
+  - value: -25.714
+  - value: -21.429
+  - value: -17.143
+  - value: -12.857
+  - value: -8.5714
+  - value: -4.2857
+  - value: 0.0
+  - value: 4.2857
+  - value: 7.461
+  - value: 8.5714
+  - value: 12.857
+  - value: 17.143
+  - value: 21.429
+  - value: 25.714
+  - value: 30.0
+  - value: 34.286
+  - value: 38.571
+  - value: 42.857
+  - value: 47.143
+  - value: 51.429
+  - value: 55.714
+  - value: 60.0
+  - value: 64.286
+  - value: 68.571
+  - value: 72.857
+  - value: 77.143
+  - value: 81.429
+  - value: 85.714
+  - value: 90.0

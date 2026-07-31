@@ -1,0 +1,151 @@
+dependent_variables:
+- header:
+    name: Data-Background
+  values:
+  - errors:
+    - label: ''
+      symerror: 0.43203
+    value: 1.0327
+  - errors:
+    - label: ''
+      symerror: 0.42009
+    value: 0.82157
+  - errors:
+    - label: ''
+      symerror: 0.43801
+    value: 1.5824
+  - errors:
+    - label: ''
+      symerror: 0.44119
+    value: 1.6339
+  - errors:
+    - label: ''
+      symerror: 0.4375
+    value: 1.2051
+  - errors:
+    - label: ''
+      symerror: 0.42896
+    value: 0.90431
+  - errors:
+    - label: ''
+      symerror: 0.432
+    value: 1.3105
+  - errors:
+    - label: ''
+      symerror: 0.43435
+    value: 0.79783
+  - errors:
+    - label: ''
+      symerror: 0.43339
+    value: 1.4393
+  - errors:
+    - label: ''
+      symerror: 0.42866
+    value: 0.94908
+- header:
+    name: Background uncertainty
+  values:
+  - errors:
+    - label: ''
+      symerror: 0.15175
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.13171
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.15495
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.1608
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.15245
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.15245
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.1608
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.15495
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.13171
+    value: 0.0
+  - errors:
+    - label: ''
+      symerror: 0.15175
+    value: 0.0
+- header:
+    name: $\alpha^{\mathrm{H}\tau\tau}=0^\circ$
+  values:
+  - value: 0.94406
+  - value: 1.0481
+  - value: 1.2357
+  - value: 1.4187
+  - value: 1.5408
+  - value: 1.5408
+  - value: 1.4187
+  - value: 1.2357
+  - value: 1.0481
+  - value: 0.94406
+- header:
+    name: $\alpha^{\mathrm{H}\tau\tau}=90^\circ$
+  values:
+  - value: 1.525
+  - value: 1.417
+  - value: 1.2297
+  - value: 1.062
+  - value: 0.95565
+  - value: 0.95565
+  - value: 1.062
+  - value: 1.2297
+  - value: 1.417
+  - value: 1.525
+- header:
+    name: $\alpha^{\mathrm{H}\tau\tau}=45^\circ$
+  values:
+  - value: 1.3293
+  - value: 1.4822
+  - value: 1.5408
+  - value: 1.4894
+  - value: 1.3428
+  - value: 1.1533
+  - value: 0.99097
+  - value: 0.92419
+  - value: 0.98258
+  - value: 1.1393
+independent_variables:
+- header:
+    name: $\phi_{CP}$
+    units: degrees
+  values:
+  - high: 36.0
+    low: 0.0
+  - high: 72.0
+    low: 36.0
+  - high: 108.0
+    low: 72.0
+  - high: 144.0
+    low: 108.0
+  - high: 180.0
+    low: 144.0
+  - high: 216.0
+    low: 180.0
+  - high: 252.0
+    low: 216.0
+  - high: 288.0
+    low: 252.0
+  - high: 324.0
+    low: 288.0
+  - high: 360.0
+    low: 324.0
